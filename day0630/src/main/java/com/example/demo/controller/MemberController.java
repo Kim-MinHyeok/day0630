@@ -11,7 +11,7 @@ public class MemberController {
 	@GetMapping("/login")
 	@ResponseBody
 	public String login() {
-		return "로그인";
+		return "로그인"; 
 	}
 	
 	@RequestMapping("/loginOK")
